@@ -1,0 +1,247 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cbd7e7;
+}
+#request-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#request-form h2 {
+    color: #333;
+}
+
+#request-form p {
+    color: #666;
+}
+
+/* Style form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles for smaller screens */
+
+    #request-form {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+header {
+    background-color: #3010be;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0; /* Adjust the padding as needed */
+    color: #fff;
+    text-align: center;
+   
+    
+    
+}
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.logo-container img {
+    max-width: 200px; /* Adjust the maximum width of the logo as needed */
+    height: auto;
+}
+nav {
+    margin-top: 10px;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid #e7e1e1; /* Add an underline effect on hover */
+}
+.social-icons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #db1d36; /* Change the color on hover */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#products {
+    background-color: #fff;
+}
+
+#products h2 {
+    color: #333;
+}
+
+#products div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#products div > div {
+    width: 45%;
+    margin: 1em;
+}
+
+#products img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#products h3 {
+    color: #333;
+    margin-top: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #3010be;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+.logo-container {
+    left: 10px;
+}
+
+.social-icons {
+    right: 10px;
+}
+.logo-container {
+    left: 20px;
+}
+
+.social-icons {
+    right: 20px;
+}
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
