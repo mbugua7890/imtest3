@@ -38,6 +38,52 @@
         padding: 15px;
     }
 }
+/* Common styles for sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #007bff; /* Change the color to your preferred accent color */
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style individual service items */
+.service-item {
+    border: 1px solid #350485;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service-item h4 {
+    color: #333;
+}
+
+.service-item p {
+    color: #666;
+}
+
+/* Add some spacing between service items */
+.service-item + .service-item {
+    margin-top: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+}
 
     </style>
     <link rel="stylesheet" href="style.css">
@@ -45,7 +91,7 @@
     
 </head>
 <body>
-
+<div class="container-fluid">
     <header>
         <div class="logo-container">
             <img src="images/web image logo.jpg" alt="Company Logo"> <!-- Replace 'your-logo.png' with the actual file path or URL of your logo -->
@@ -68,7 +114,140 @@
     </header>
     <section id="services">
         <h2>Our Services</h2>
+    <section id="desktop-solutions">
+            <h2>Desktop Solutions</h2>
     
+            <p>Empower your workforce with our comprehensive desktop solutions. At i-M Computer Systems, we provide tailored services to optimize desktop environments, enhance user experiences, and ensure the efficiency of your business operations.</p>
+    
+            <h3>Our Desktop Services</h3>
+    
+            <div class="service-item">
+                <h4>Desktop Deployment and Support</h4>
+                <p>Efficiently deploy and support desktop systems across your organization. We ensure seamless integration, optimal performance, and responsive technical support for desktop users.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Desktop Virtualization</h4>
+                <p>Maximize flexibility and resource utilization with desktop virtualization solutions. We enable centralized management, secure access, and efficient delivery of desktop environments to end-users.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Desktop Security</h4>
+                <p>Protect your desktop environments from security threats with our advanced security solutions. We implement antivirus measures, encryption, and access controls to safeguard sensitive data.</p>
+            </div>
+    
+            <!-- Add more desktop services as needed -->
+    
+        </section>
+    
+        <section id="info-management-systems">
+            <h2>Information Management Systems</h2>
+    
+            <p>Efficiently organize, store, and retrieve information with our Information Management Systems. At i-M Computer Systems, we offer solutions that streamline data management, enhance collaboration, and improve decision-making processes.</p>
+    
+            <h3>Our Information Management Services</h3>
+    
+            <div class="service-item">
+                <h4>Document Management</h4>
+                <p>Implement document management systems for organized storage, version control, and secure access to documents. Streamline collaboration and enhance productivity across your organization.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Data Analytics and Reporting</h4>
+                <p>Unlock insights from your data with our analytics and reporting solutions. We help you turn raw data into meaningful information, enabling informed decision-making and strategic planning.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Information Security and Compliance</h4>
+                <p>Ensure the security and compliance of your information assets. Our solutions include encryption, access controls, and measures to meet regulatory requirements, protecting sensitive information.</p>
+            </div>
+    
+            <!-- Add more information management services as needed -->
+    
+        </section>
+        <section id="server-solutions">
+            <h2>Server Solutions</h2>
+    
+            <p>Optimize your business operations with our server solutions. At i-M Computer Systems, we offer a range of server services to enhance performance, reliability, and scalability.</p>
+    
+            <h3>Our Server Services</h3>
+    
+            <div class="service-item">
+                <h4>Server Deployment and Configuration</h4>
+                <p>Deploy and configure servers tailored to your business needs. Our experts ensure optimal performance and reliability for your server infrastructure.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Server Virtualization</h4>
+                <p>Maximize resource utilization with server virtualization solutions. We help you consolidate servers, improve efficiency, and reduce costs.</p>
+            </div>
+    
+            <!-- Add more server services as needed -->
+    
+        </section>
+    
+        <section id="network-solutions">
+            <h2>Network Solutions</h2>
+    
+            <p>Build a robust and secure network foundation with our network solutions. Our team specializes in designing, implementing, and maintaining networks to support your business objectives.</p>
+    
+            <h3>Our Network Services</h3>
+    
+            <div class="service-item">
+                <h4>Network Design and Implementation</h4>
+                <p>We design and implement customized network infrastructures that align with your business goals. From planning to execution, we ensure a seamless and efficient deployment.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Network Security</h4>
+                <p>Protect your business from cyber threats with our advanced network security solutions. We implement robust security measures to safeguard your data and infrastructure.</p>
+            </div>
+    
+            <!-- Add more network services as needed -->
+    
+        </section>
+    
+        <section id="cloud-computing">
+            <h2>Cloud Computing</h2>
+    
+            <p>Embrace the power of the cloud with our comprehensive cloud computing solutions. At i-M Computer Systems, we offer a range of services to help your business leverage the scalability, flexibility, and cost-effectiveness of cloud technology.</p>
+    
+            <h3>Our Cloud Services</h3>
+    
+            <div class="service-item">
+                <h4>Cloud Infrastructure</h4>
+                <p>Build and scale your infrastructure on the cloud. Our cloud infrastructure solutions provide the computing power, storage, and networking capabilities needed to support your applications and workloads.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Cloud Migration</h4>
+                <p>Seamlessly migrate your applications and data to the cloud with our expert guidance. We ensure a smooth transition, minimizing downtime and optimizing performance during the migration process.</p>
+            </div>
+    
+            <!-- Add more cloud services as needed -->
+    
+        </section>
+    
+        <section id="cybersecurity">
+            <h2>Cybersecurity</h2>
+    
+            <p>Protect your digital assets and secure your business from cyber threats with our advanced cybersecurity solutions. At i-M Computer Systems, we specialize in providing comprehensive security measures to safeguard your data, applications, and infrastructure.</p>
+    
+            <h3>Our Cybersecurity Services</h3>
+    
+            <div class="service-item">
+                <h4>Network Security</h4>
+                <p>Strengthen your network defenses with our advanced security solutions. We implement firewalls, intrusion detection systems, and other measures to secure your network infrastructure from external threats.</p>
+            </div>
+    
+            <div class="service-item">
+                <h4>Endpoint Security</h4>
+                <p>Protect individual devices with our endpoint security solutions. We deploy antivirus software, encryption, and other tools to secure laptops, desktops, and mobile devices from malware and other cyber threats.</p>
+            </div>
+    
+            <!-- Add more cybersecurity services as needed -->
+    
+        </section>
         <div class="service-item">
             <h3>Hardware Solutions</h3>
             <p>We provide cutting-edge hardware solutions tailored to meet the unique needs of your business. From servers and networking equipment to workstations and peripherals, our hardware solutions are designed for optimal performance and reliability.</p>
@@ -83,12 +262,7 @@
             <h3>IT Consulting</h3>
             <p>Strategic IT consulting to align technology with your business objectives. Whether you need guidance on infrastructure design, security assessments, or technology adoption strategies, our experts are here to help you make informed decisions for your business.</p>
         </div>
-    
-        <div class="service-item">
-            <h3>Cloud Services</h3>
-            <p>Unlock the potential of the cloud with our comprehensive cloud services. From cloud infrastructure deployment to data migration and management, we help businesses leverage the scalability, flexibility, and cost-effectiveness of cloud computing.</p>
-        </div>
-    
+        
         <div class="service-item">
             <h3>Managed Services</h3>
             <p>Ensure the seamless operation of your IT environment with our managed services. We offer proactive monitoring, maintenance, and support to keep your systems running smoothly, allowing you to focus on your core business activities.</p>
@@ -102,8 +276,8 @@
     
 
     <footer>
-        <p>&copy; 2023 Your Computer Systems Company. All rights reserved.</p>
+        <p>&copy; 2023 i-M Computer Systems. All rights reserved.</p>
     </footer>
-
+</div>
 </body>
 </html>
