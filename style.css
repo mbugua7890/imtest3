@@ -86,7 +86,7 @@ header {
     
 }
 .logo-container {
-    position: flex;
+    position: left;
     top: 10px;
     left: 20px;
 }
