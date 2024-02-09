@@ -86,7 +86,7 @@ header {
     
 }
 .logo-container {
-    position: block;
+    position: absolute;
     top: 10px;
     left: 20px;
 }
