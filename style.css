@@ -86,9 +86,14 @@ header {
     
 }
 .logo-container {
-    position: left;
+    display: flex;
     top: 10px;
     left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
 }
 
 .logo-container img {
