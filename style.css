@@ -97,7 +97,7 @@ header {
 }
 
 .logo-container img {
-    max-width: 200px; /* Adjust the maximum width of the logo as needed */
+    max-width: 100px; /* Adjust the maximum width of the logo as needed */
     height: 40px;
 }
 nav {
