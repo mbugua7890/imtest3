@@ -17,7 +17,7 @@ body {
 }
 #request-form {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 56px auto;
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 8px;
@@ -52,7 +52,7 @@ textarea {
 
 /* Style the submit button */
 button {
-    background-color: #007bff;
+    background-color: #6699CC;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -86,19 +86,16 @@ header {
     
 }
 .logo-container {
-    display: flex;
+    position: absolute;
     top: 80px;
     left: 20px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    
-    
 }
 
 .logo-container img {
     max-width: 100px; /* Adjust the maximum width of the logo as needed */
     height: 40px;
+    margin-right: 20px;
+    shape-outside: circle(20px);
 }
 nav {
     margin-top: 10px;
